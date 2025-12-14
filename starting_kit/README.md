@@ -1,6 +1,6 @@
 # **Starting kit**
+. The following documentation describes how to install the, download the LTDv2 dataset, and run some experiments. # LTDv2 THERMAL DETECTION - VALIDATED CONFIG From FInal Test Split (weighted map of 0.448)
 
-We provide a Pytorch starting kit to run some baselines. The following documentation describes how to install the, download the LTDv2 dataset, and run some experiments.
 
 ## Installation
 
