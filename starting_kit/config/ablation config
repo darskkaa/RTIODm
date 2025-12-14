@@ -1,11 +1,14 @@
-\textbf{Code Availability.} To facilitate reproducibility, this is the ablation config. 
+
+To facilitate reproducibility, this is the ablation code. 
+
+hydra:
+  run:
     dir: ${hydra:runtime.cwd}/outputs
 
 seed: 42
 numClass: 4
 currentDir: ${hydra:runtime.cwd}
-modelCheckpoint: modelCheckpoint:yolo11m.pt
-
+modelCheckpoint: /workspace/RTIOD/starting_kit/runs/train/yolo11m_thermal_50ep/weights/epoch10.pt
 
 submission:
   type: 'val'
