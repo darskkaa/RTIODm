@@ -1,6 +1,5 @@
 # **RTIOD: Robust Thermal-Image Object Detection challenge (Custom Fork)**
 
-<a href="https://pytorch.org/get-started/locally/"><img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-ee4c2c?logo=pytorch&logoColor=white"></a>
 
 > **⚠️ Fork Information:** > This repository is a fork of the original [RTIOD Challenge Repository](https://github.com/MarcoParola/RTIOD).
 >
