@@ -12,7 +12,7 @@ numClass: 4
 currentDir: ${hydra:runtime.cwd}
 
 # MODEL CHECKPOINT - Update this path after training
-modelCheckpoint: yolo11m.pt /last.pt
+modelCheckpoint: yolo11m.pt
 
 # ==============================================================================
 # SUBMISSION PATHS
