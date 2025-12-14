@@ -4,13 +4,7 @@ We provide a Pytorch starting kit to run some baselines. The following documenta
 
 ## Installation
 
-To install the project, clone the repository:
-```sh
-git clone https://github.com/MarcoParola/RTIOD.git
-cd RTIOD
-cd starting_kit
-mkdir data
-```
+To install the project
 
 Then, create a virtual environment and install the necessary dependencies.
 
@@ -41,18 +35,17 @@ python -m scripts.coco_to_yolo
 ```
 
 
-
 ## Usage
 
 
 You can use this repository to **train**, **evaluate**, and **generate submissions** for your models, following the provided templates for both validation and test phases.
 
-To **train a YOLOv8 baseline model**, run:
+To **train a YOLOv11  model**, run:
 ```sh
 python train.py
 ```
 
-To **evaluate performance** on the validation set using the baseline model included in this repository, run:
+To **evaluate performance** on the validation set included in this repository, run:
 ```sh
 python test.py
 ```
