@@ -1,12 +1,22 @@
-# **RTIOD: Robust Thermal-Image Object Detection challenge**
+# **RTIOD: Robust Thermal-Image Object Detection challenge (Custom Fork)**
 
 <a href="https://pytorch.org/get-started/locally/"><img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-ee4c2c?logo=pytorch&logoColor=white"></a>
 
-*This is the official Repository of the RTIOD - Robust Thermal-Image Object Detection Challenge at WACV 2026 (RTIOD@WACV2026)*
+> **⚠️ Fork Information:** > This repository is a fork of the original [RTIOD Challenge Repository](https://github.com/MarcoParola/RTIOD).
+>
+> **Key Modifications:**
+> This version includes custom updates to the following files to support specific experiments:
+> * **`config.yaml`**: Modified configuration parameters.
+> * **`detect.py`**: Updated detection logic.
+> * **`train.py`**: Custom training implementation.
+
+---
 
 <img src="assets/chal_logo.png" alt="drawing" width="50%">
 
 ## Information
+
+*This is the official Repository of the RTIOD - Robust Thermal-Image Object Detection Challenge at WACV 2026 (RTIOD@WACV2026)*
 
 Ready to stress-test your detector in the wild? The 6th Real World Surveillance Workshop at WACV 2026 [RWS@WACV2026](https://vap.aau.dk/rws/) introduces a new challenge on Robust Thermal-Image Object Detection using the LTDv2 dataset to advance multi-object detection performance under long-term thermal drift. Real-world thermal imaging is messy: sensors re-calibrate, ambient temperatures swing, and weather keeps changing, which slowly erode detector performance.
 
@@ -19,7 +29,7 @@ A starting kit to run some baseline experiments with YOLO is available [here](ht
 Associated workshop at WACV2026: [Real-World Surveillance: Applications and Challenges Workshop, 6th](https://vap.aau.dk/rws/)
 
 ## Important dates
-- October 17th:  Start of competition and Development Phase
+- October 17th:  Start of competition and Development Phase
 - December 1st: Start of Testing Phase and end of Development Phase
 - December 7th: End of competition
 - December 7th: Paper submission deadline
